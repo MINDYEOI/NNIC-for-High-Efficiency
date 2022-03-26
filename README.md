@@ -34,7 +34,7 @@ Downscaling 과정을 통해 해상도를 낮추고, Super Resolution 또는 Bic
 
 이 과정을 통해 R-D Curve를 확인해보면 아래와 같을 것으로 예상한다.
 
-​	<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0nhijmh4rj20p80fwwfb.jpg" alt="image-20220326195828191" style="zoom:20%;" />
+​	<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0nhijmh4rj20p80fwwfb.jpg" width=50% alt="image-20220326195828191" style="text-align: center;"/>
 
 낮은 bpp에선 Anchor보다 PSNR 성능이 좋게 나오지만, 높은 bpp에선 Anchor보다 더 낮은 성능을 보일 것이다. 즉, 저해상도에선 더 좋은 성능을 보이지만 고해상도에선 더 낮은 성능이 예상된다.
 
@@ -46,7 +46,7 @@ Step 2의 방식처럼 Scaling을 하게 되면 복잡도로 인해 하드웨어
 
 먼저 Image를 여러개의 2Nx2N 블록으로 나눈다.
 
-<p style="text-align: center;"><img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0npybc94sj20hk0b4aak.jpg" alt="image-20220327002957918" style="zoom:30%;" /></p>
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0npybc94sj20hk0b4aak.jpg" width=50% alt="image-20220327002957918" style="text-align: center;" />
 
 Mode 1과 Mode 2, 두가지 모드로 실험을 진행한다.
 
@@ -62,7 +62,7 @@ Mode 1과 Mode 2, 두가지 모드로 실험을 진행한다.
 
 예상되는 결과는 다음과 같다.
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0npn8udktj20p80fwmy2.jpg" alt="image-20220327003947376" style="zoom:50%;" />
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0npn8udktj20p80fwmy2.jpg" width=50% alt="image-20220327003947376" style="text-align: center;" />
 
 
 
@@ -72,4 +72,4 @@ Step3 단계에선 Down(Up)sampling을 bicubic interpolation 등 hand-craft meth
 
 예상되는 결과는 다음과 같다.
 
-<img src="../../Library/Application Support/typora-user-images/image-20220327004629567.png" alt="image-20220327004629567" style="zoom:50%;" />
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0nq3tu6nlj20p80fw0tn.jpg" width=50% alt="image-20220327004629567" style="text-align: center;" />
