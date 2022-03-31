@@ -73,3 +73,8 @@ Step3 단계에선 Down(Up)sampling을 bicubic interpolation 등 hand-craft meth
 예상되는 결과는 다음과 같다.
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0nq3tu6nlj20p80fw0tn.jpg" width=50% alt="image-20220327004629567" style="text-align: center;" />
+
+
+---
+[memo]
+[IEC, ISO and ITU issue a call for proposals for joint standardization of image coding based on machine learning](https://jpeg.org/items/20220209_press.html)
