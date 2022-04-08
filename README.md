@@ -21,7 +21,6 @@ Feature Extract 과정을 통해 Image에서 Feature을 추출하고, 추출된 
 Image $X$를 NNIC의 입력으로 넣는다. NNIC 과정을 통해 압축 후 복원된 이미지 $\hat{X}$를 얻는다. $X$와 $\hat{X}$를 통해 PSNR을 구한 후, PSNR을 통해 성능평가를 진행한다. (2022. 3. 현재 하고 있는 NNVC 실습이 이에 해당한다.)
 
 * Base code Option
-  * d
   * [facebookresearch/NeuralCompression](https://github.com/MINDYEOI/NeuralCompression)
   * [MeanScaleHyperprior](https://github.com/MINDYEOI/MeanScaleHyperprior)
 
