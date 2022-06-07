@@ -52,9 +52,13 @@ Step 2의 방식처럼 Scaling을 하게 되면 복잡도로 인해 하드웨어
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0npybc94sj20hk0b4aak.jpg" width=50% alt="image-20220327002957918" style="text-align: center;" />
 
+
+
 Mode 1과 Mode 2, 두가지 모드로 실험을 진행한다.
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0nlz7r1f1j215k0jk0u5.jpg" alt="image-20220326223256273" style="zoom:80%;" />
+
+
 
 먼저 **Mode 1**에서는 2Nx2N 블록을 NxN 블록 4개로 나누어 NxN 블록을 입력으로 받는 NNIC에 통과시켜 복원된 블록을 얻는다. 이를 다시 2Nx2N 블록으로 복원하여, 복원된 2Nx2N 블록(하늘색)과 오리지널 2Nx2N 블록(파란색)으로 성능을 측정한다.
 
