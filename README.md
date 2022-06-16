@@ -1,6 +1,8 @@
-# Improvement of Image Coding Performance using Neural Network  
 
-# 신경망 기술을 활용한 이미지 부호화 성능 개선
+
+
+https://user-images.githubusercontent.com/71140885/173961894-867a7bfe-d677-41ed-810c-f87bcd6b80f9.mp4
+
 
 ## Code
 [jeju-ticket/Neural-Image-Compression-using-BAR](https://github.com/jeju-ticket/Neural-Image-Compression-using-BAR)
